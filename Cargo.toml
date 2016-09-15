@@ -1,0 +1,11 @@
+[package]
+name = "modal_seq"
+version = "0.1.0"
+authors = ["Michael Kedzierski <michael@kedzierski.id.au>"]
+
+[dependencies]
+clippy = "*"
+
+[dev-dependencies]
+quickcheck = "0.3"
+#quickcheck_macros = "0.2"
