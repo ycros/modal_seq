@@ -1,7 +1,7 @@
 use core::convert::TryFrom;
 
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, PartialOrd)]
 pub struct Semitone {
     value: u8, // 1..12
 }

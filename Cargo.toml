@@ -2,9 +2,19 @@
 name = "modal_seq"
 version = "0.1.0"
 authors = ["Michael Kedzierski <michael@kedzierski.id.au>"]
+license = "MIT/Apache-2.0"
 
 [dependencies]
 clippy = "*"
+ndarray = "0.6"
+portmidi = "0.2"
+docopt = "0.6"
+#docopt_macros = "0.6"
+rustc-serialize = "0.3"
+time = "0.1"
+monome = { git = "https://github.com/ycros/monome-rs" }
+log = "0.3"
+env_logger = "0.3"
 
 [dev-dependencies]
 quickcheck = "0.3"
